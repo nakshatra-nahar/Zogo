@@ -1,0 +1,47 @@
+dn: dc=zogo,dc=org
+objectClass: top
+objectClass: dcObject
+objectClass: organization
+o: zogo.org
+dc: zogo
+
+dn: cn=admin,dc=zogo,dc=org
+objectClass: simpleSecurityObject
+objectClass: organizationalRole
+cn: admin
+description: LDAP administrator
+userPassword:: e2NyeXB0fWlWTU9DcUt6WWxXRDI=
+
+dn: ou=Person,dc=zogo,dc=org
+ou: Person
+objectClass: top
+objectClass: organizationalUnit
+
+dn: uid=example1,ou=Person,dc=zogo,dc=org
+objectClass: posixAccount
+objectClass: top
+objectClass: inetOrgPerson
+gidNumber: 0
+givenName: Example
+sn: One
+uid: example1
+homeDirectory: /home/example1
+cn: Example One
+uidNumber: 0
+mail: example1@zogo.org
+userPassword:: e1NIQX1mRXFOQ2NvM1lxOWg1WlVnbEQzQ1pKVDRsQnM9
+
+dn: uid=edavis,ou=Person,dc=zogo,dc=org
+objectClass: posixAccount
+objectClass: top
+objectClass: inetOrgPerson
+gidNumber: 0
+givenName: Eric
+sn: Davis
+uid: edavis
+mail: edavis@littlestreamsoftware.com
+homeDirectory: /home/edavis
+cn: Eric Davis
+uidNumber: 0
+userPassword:: e1NIQX1mRXFOQ2NvM1lxOWg1WlVnbEQzQ1pKVDRsQnM9
+

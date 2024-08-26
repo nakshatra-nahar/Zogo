@@ -1,0 +1,5 @@
+Description:
+    Generates a plugin model.
+
+Examples:
+    bundle exec rails generate zogo_plugin_model meetings pool
